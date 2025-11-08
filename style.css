@@ -28,7 +28,7 @@ body {
 
 /*--  Bottom NavBar for Phones --*/
 @media (max-width: 992px) {
-.bottom-nav {
+ #bottom-nav {
   display: flex;
   justify-content: space-between;
   background: linear-gradient(to right, rgba(0, 128, 0, 0.884), rgba(59, 224, 59, 0.863));
