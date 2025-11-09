@@ -1,0 +1,47 @@
+/*--  Background --*/
+body {
+    background: linear-gradient(to right, #c2ffba, #51764c);
+}
+
+.head {
+    background: linear-gradient(to right, green, rgb(59, 224, 59));
+    border: 2px solid green;
+    box-shadow: 1px 1px 10px black;
+}
+
+/*--  Buttons to NOT Show on Lg Screens --*/
+@media (max-width: 991.98px) {
+  .water-btn {
+    margin-left: 10px;
+  }
+}
+
+/*--  Nav Buttons to Show ONLY on Lg Screens --*/
+@media (min-width: 991.98px) {
+  .water-btn {
+    margin-left: 20px;
+  }
+  .fitness-btn {
+    margin-left: 20px;
+}
+}
+
+/*--  Bottom NavBar for Phones --*/
+@media (max-width: 992px) {
+ #bottom-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(to right, rgba(0, 128, 0, 0.884), rgba(59, 224, 59, 0.863));
+  border: 2px solid green;
+  box-shadow: 1px 1px 10px black;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  }
+}
+
+@media (min-width: 992px) {
+ #bottom-nav {
+  display: none;
+ }
+}
