@@ -30,6 +30,7 @@ body {
 @media (max-width: 992px) {
  #bottom-nav {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   background: linear-gradient(to right, rgba(0, 128, 0, 0.884), rgba(59, 224, 59, 0.863));
   border: 2px solid green;
