@@ -45,3 +45,18 @@ body {
   display: none;
  }
 }
+
+/* Ensure this CSS loads AFTER Bootstrap */
+#bottom-nav.navbar { 
+  display: flex;
+  flex-direction: row !important;   /* override Bootstrap’s mobile column */
+  align-items: center;
+}
+
+#bottom-nav .container-fluid {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
