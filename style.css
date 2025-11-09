@@ -92,7 +92,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: linear-gradient(to right, rgba(161, 161, 161, 0.541), rgba(0, 0, 0, 0.507));
+  background: linear-gradient(to top, rgba(161, 161, 161, 0.541), rgba(0, 0, 0, 0.507));
   border-top: 2px solid rgba(53, 53, 53, 0.356);
   box-shadow: 1px 1px 5px black;
   -webkit-backdrop-filter: blur(10px);
