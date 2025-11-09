@@ -92,17 +92,22 @@ h1 {
   padding: 10px;
   padding-left: 20%;
   padding-right: 20%;
-  background: linear-gradient(to top, #001427, #11548f);
+  background: linear-gradient(to top, #003a70, #006bc9);
   border-color: #04203d;
   color: white;
-  text-shadow: 0px 0px 3px black, 2px 2px 4px rgb(0, 0, 0), 0px 0px 4px rgb(0, 0, 0), 0px 0px 5px black;
+  text-shadow: 0px 0px 3px black;
   transition: all ease 0.3s;
   text-decoration: none;
 }
 
 .ready:hover {
-  background: linear-gradient(to top, #001930, #125692);
+  background: linear-gradient(to top, #00478a, #0175db);
   transform: scale(1.01);
+}
+
+/*-- Stay Hydrated Link --*/
+.hydrate {
+  color: white;
 }
 
 /*--=========================
@@ -125,7 +130,7 @@ h1 {
   }
   .water-btn-btm {
     margin-right: 5px;
-    margin-left: 5px;
+    margin-left: 8px;
   }
 }
 
@@ -142,7 +147,7 @@ h1 {
 footer {
   border-top: 1px solid rgb(136, 136, 136);
   border-radius: 7px;
-  background: linear-gradient(to top, rgb(54, 54, 54), rgb(97, 97, 97));
+  background: linear-gradient(to top, rgb(70, 70, 70), rgb(136, 136, 136));
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   padding-bottom: 60px;
