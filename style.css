@@ -52,18 +52,19 @@ body {
 }
 
 /*-- Body Content --*/
-.heart-bg {
-  background-image: url(heart-active.png);
+.weights-bg {
+  background-image: url(weights.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
 #bd-content {
-  width: 90%;
-  margin-bottom: 35px;
+  width: 100%;
+  margin-bottom: 50px;
 }
 
+/*-- Header --*/
 h1 {
   text-shadow: 0px 0px 5px rgb(0, 0, 0), 2px 2px 8px rgb(0, 0, 0), 0px 0px 5px rgb(0, 0, 0), 0px 0px 5px black;
   letter-spacing: 2px;
@@ -75,12 +76,33 @@ h1 {
   width: 100%;
 }
 
+/*-- Paragragh --*/
 #bd-content p {
   font-weight: 400;
   font-size: 18px;
   color: white;
   text-shadow: 0px 0px 3px black, 2px 2px 4px rgb(0, 0, 0), 0px 0px 4px rgb(0, 0, 0), 0px 0px 5px black;
   width: 100%;
+}
+
+/*-- Ready Button --*/
+.ready {
+  border-radius: 15px;
+  border: 2px solid;
+  padding: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
+  background: linear-gradient(to top, #001427, #11548f);
+  border-color: #04203d;
+  color: white;
+  text-shadow: 0px 0px 3px black, 2px 2px 4px rgb(0, 0, 0), 0px 0px 4px rgb(0, 0, 0), 0px 0px 5px black;
+  transition: all ease 0.3s;
+  text-decoration: none;
+}
+
+.ready:hover {
+  background: linear-gradient(to top, #001930, #125692);
+  transform: scale(1.01);
 }
 
 /*--=========================
