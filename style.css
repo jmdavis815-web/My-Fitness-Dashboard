@@ -1,62 +1,127 @@
-/*--  Background --*/
-body {
-    background: linear-gradient(to right, #c2ffba, #51764c);
-}
+/*--=========================
+        TOP NAVBAR
+===========================--*/
 
 .head {
-    background: linear-gradient(to right, green, rgb(59, 224, 59));
-    border: 2px solid green;
-    box-shadow: 1px 1px 10px black;
+  background: linear-gradient(to top, rgb(0, 128, 0), rgb(59, 224, 59));
+  border-radius: 5px;
+  border-bottom: 2px solid rgba(0, 128, 0, 0.445);
+  box-shadow: 1px 1px 7px black;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
-/*--  Buttons to NOT Show on Lg Screens --*/
-@media (max-width: 991.98px) {
+/*--  Top NavBar Buttons to NOT Show on Lg Screens --*/
+@media (max-width: 576px) {
   .water-btn {
-    margin-left: 10px;
+    margin-left: 8px;
   }
 }
 
-/*--  Nav Buttons to Show ONLY on Lg Screens --*/
-@media (min-width: 991.98px) {
+/*--  Top NavBar Buttons to Show ONLY on Lg Screens --*/
+@media (min-width: 576px) {
   .water-btn {
     margin-left: 20px;
   }
   .fitness-btn {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 }
 
-/*--  Bottom NavBar for Phones --*/
-@media (max-width: 992px) {
+/*--=========================
+            Body
+===========================--*/
+
+/*--  Background --*/
+body {
+  background: linear-gradient(to right, rgb(24, 24, 24), rgb(53, 53, 53));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*-- Body Image --*/
+.bench {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 350px;
+  box-shadow: 2px 2px 7px black;
+}
+
+.heart {
+  width: 50%;
+}
+
+/*-- Body Content --*/
+.text-bg {
+  background-image: url(heart-active.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#bd-content {
+  width: 75%;
+  margin-bottom: 35px;
+}
+
+h1 {
+  text-shadow: 0px 0px 5px rgb(0, 0, 0), 2px 2px 8px rgb(0, 0, 0), 0px 0px 5px rgb(0, 0, 0), 0px 0px 5px black;
+  letter-spacing: 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+}
+
+#bd-content p {
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  text-shadow: 0px 0px 3px black, 2px 2px 4px rgb(0, 0, 0), 0px 0px 4px rgb(0, 0, 0), 0px 0px 5px black;
+}
+
+/*--=========================
+        BOTTOM NAVBAR
+===========================--*/
+
+/*--  Bottom NavBar for Small Screens --*/
+@media (max-width: 576px) {
  #bottom-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: linear-gradient(to right, rgba(0, 128, 0, 0.884), rgba(59, 224, 59, 0.863));
-  border: 2px solid green;
+  background: linear-gradient(to right, rgba(0, 128, 0, 0.541), rgba(59, 224, 59, 0.507));
+  border-top: 2px solid green;
   box-shadow: 1px 1px 10px black;
-  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  z-index: 2;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) {
  #bottom-nav {
   display: none;
  }
 }
 
-/* Ensure this CSS loads AFTER Bootstrap */
-#bottom-nav.navbar { 
-  display: flex;
-  flex-direction: row !important;   /* override Bootstrap’s mobile column */
-  align-items: center;
+/*--=========================
+          Footer
+===========================--*/
+
+footer {
+  border-top: 1px solid rgb(136, 136, 136);
+  border-radius: 7px;
+  background: linear-gradient(to top, rgb(54, 54, 54), rgb(97, 97, 97));
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding-bottom: 60px;
+  padding-top: 20px;
+  color: #0B2A45;
 }
 
-#bottom-nav .container-fluid {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
+
+
