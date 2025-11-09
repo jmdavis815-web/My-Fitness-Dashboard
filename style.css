@@ -96,13 +96,15 @@ h1 {
   border-color: #04203d;
   color: white;
   text-shadow: 0px 0px 3px black;
-  transition: all ease 0.3s;
   text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .ready:hover {
   background: linear-gradient(to top, #00478a, #0175db);
-  transform: scale(1.01);
 }
 
 /*-- Stay Hydrated Link --*/
@@ -120,6 +122,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-content: center;
   background: linear-gradient(to top, rgba(161, 161, 161, 0.541), rgba(0, 0, 0, 0.507));
   border-top: 2px solid rgba(53, 53, 53, 0.356);
   box-shadow: 1px 1px 5px black;
@@ -130,7 +133,7 @@ h1 {
   }
   .water-btn-btm {
     margin-right: 5px;
-    margin-left: 8px;
+    margin-left: 10px;
   }
 }
 
