@@ -6,7 +6,7 @@ nav{
 }
 
 .head {
-  background: linear-gradient(to top, rgb(0, 128, 0), rgb(59, 224, 59));
+  background: linear-gradient(to top, rgb(0, 109, 0), rgb(70, 231, 70));
   border-bottom: 2px solid rgba(0, 49, 0, 0.705);
   box-shadow: 1px 1px 7px black;
   -webkit-backdrop-filter: blur(10px);
