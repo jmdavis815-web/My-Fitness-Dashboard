@@ -1,6 +1,9 @@
 /*--=========================
         TOP NAVBAR
 ===========================--*/
+nav{
+  width: 100%;
+}
 
 .head {
   background: linear-gradient(to top, rgb(0, 128, 0), rgb(59, 224, 59));
@@ -45,12 +48,11 @@ body {
   border: 1px solid black;
   border-radius: 5px;
   width: 100%;
-  min-width: 350px;
   box-shadow: 2px 2px 7px black;
 }
 
 .heart {
-  width: 50%;
+  width: 100%;
 }
 
 /*-- Body Content --*/
@@ -99,6 +101,7 @@ h1 {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   z-index: 2;
+  width: 100%;
   }
 }
 
@@ -121,6 +124,7 @@ footer {
   padding-bottom: 60px;
   padding-top: 20px;
   color: #0B2A45;
+  width: 100%;
 }
 
 
