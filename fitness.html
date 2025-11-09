@@ -3,59 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tab Title and Logo -->
     <title>MyFitness</title>
     <link rel="icon" type="image/png" href="my-fitness-tab.png">
-
-
     <!-- Link to a CSS file -->
     <link rel="stylesheet" href="style.css" />
-    <!-- Link to Bootstrap -->
+    <!-- Links to Bootstrap -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
   </head>
 
-  <body class="d-flex flex-column min-vh-100  flex-fill">
-    
-    <nav class="navbar navbar-expand-lg head">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img src="my-fitness-logo.png" alt="My Fitness Logo" width="100px"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse  buttons" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active home-btn" aria-current="page" href="index.html"><img src="home-button.png" alt="Home Button" width="50px"></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fitness-btn" href="fitness.html"><img src="fitness-tracker-button-active.png" alt="Fitness Tracker Button" width="55px" height="50px" title="My Fitness Tracker"></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link water-btn" href="water.html"><img src="water-tracker.png" alt="Water Tracker Button" width="35px" title="My Water Tracker"></a>
-        </li>
-      </ul>
+  <body class="d-flex flex-column min-vh-100">
+
+    <!--=====================================
+                   NavBar 
+    =======================================-->
+    <nav class="navbar navbar-expand-sm mb-5 head">
+      <div class="container-fluid">
+        <!-- Title Logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="my-fitness-logo.png" alt="My Fitness Logo" width="100px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"> 
+          </span>
+        </button>
+        <div class="collapse navbar-collapse  buttons" id="navbarNav">
+          <ul id="btn-cont" class="navbar-nav">
+            <!-- Home Page Button -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">
+                <img src="home-button.png" alt="Home Button" width="50px">
+              </a>
+            </li>
+            <!-- Fitness Tracker Page Button -->
+            <li class="nav-item">
+              <a class="nav-link fitness-btn" href="fitness.html">
+                <img src="fitness-tracker-button-active.png" alt="Fitness Tracker Button" width="50px" height="50px" title="My Fitness Tracker"> 
+              </a>
+            </li>
+            <!-- Water Tracker Page Button -->
+            <li class="nav-item">
+              <a class="nav-link water-btn" href="water.html">
+                <img src="water-tracker.png" alt="Water Tracker Button" width="35px" title="My Water Tracker">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--=====================================
+                    Body
+    =======================================-->
+
+    <div id="bd-content" class="container">
+      <div class="row">
+        <div id="heart-bg" class="col-12 col-md-6 col-lg-6 heart-bg">
+          <h1 class="text-center title">
+            Welcome To My Fitness Dashboard<br>
+          </h1>
+            <br>
+          <p class="text-start">
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+            Bla Bla Bla Bla Bla Bla Bla Bla 
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
+          </p>
+          <br>
+          <br>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+          <img class="bench" src="bench.png" alt="Workout Equipment">
+        </div>
+      </div>
     </div>
-  </div>
-</nav>
 
-<!-- Bottom NavBar For Phones -->
-<ul id="bottom-nav" class="nav fixed-bottom flex-row w-100 justify-content-between bottom-nav">
-  <li class="nav-item">
-    <a class="nav-link" aria-current="page" href="index.html"><img src="home-button.png" alt="Home Button" width="35px"></a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="fitness.html"><img src="fitness-tracker-button-active.png" alt="Fitness Tracker Button" width="35px" title="My Fitness Tracker"></a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="water.html"><img src="water-tracker.png" alt="Water Tracker Button" width="25px" title="My Water Tracker"></a>
-  </li>
-</ul>
+    <!--=====================================
+                Bottom NavBar 
+    =======================================-->
 
-<!--=====================================
+    <!-- Bottom NavBar For Small Screens -->
+    <ul id="bottom-nav" class="nav fixed-bottom flex-row w-100 justify-content-between bottom-nav">
+      <!-- Home Page Button -->
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="index.html">
+          <img src="home-button.png" alt="Home Button" width="35px">
+        </a>
+      </li>
+      <!-- Fitness Tracker Page Button -->
+      <li class="nav-item">
+        <a class="nav-link" href="fitness.html">
+          <img src="fitness-tracker-button-active.png" alt="Fitness Tracker Button" width="35px" title="My Fitness Tracker">
+        </a>
+      </li>
+      <!-- Water Tracker Page Button -->
+      <li class="nav-item">
+        <a class="nav-link" href="water.html">
+          <img src="water-tracker.png" alt="Water Tracker Button" width="25px" title="My Water Tracker">
+        </a>
+      </li>
+    </ul>
+
+    <!--=====================================
                    Footer 
     =======================================-->
 
-    <footer class="container-fluid mt-5">
+    <footer class="container-fluid mt-3">
       <div class="row">
         <div class="col-6">
           <p>
@@ -67,14 +124,12 @@
         <div class="col-6">
           <p class="text-end">
             <em>
-              All Images Created by ChatGPT
+              All Images by ChatGPT CC0
             </em>
           </p>
         </div>
       </div>
     </footer>
-
-  <script src="index.js"></script>
     
   </body>
 </html>

@@ -7,8 +7,7 @@ nav{
 
 .head {
   background: linear-gradient(to top, rgb(0, 128, 0), rgb(59, 224, 59));
-  border-radius: 5px;
-  border-bottom: 2px solid rgba(0, 128, 0, 0.445);
+  border-bottom: 2px solid rgba(0, 49, 0, 0.705);
   box-shadow: 1px 1px 7px black;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -51,12 +50,8 @@ body {
   box-shadow: 2px 2px 7px black;
 }
 
-.heart {
-  width: 100%;
-}
-
 /*-- Body Content --*/
-.text-bg {
+.heart-bg {
   background-image: url(heart-active.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -64,7 +59,7 @@ body {
 }
 
 #bd-content {
-  width: 75%;
+  width: 90%;
   margin-bottom: 35px;
 }
 
@@ -76,6 +71,7 @@ h1 {
 
 .title {
   color: rgb(255, 255, 255);
+  width: 100%;
 }
 
 #bd-content p {
@@ -83,6 +79,7 @@ h1 {
   font-size: 18px;
   color: white;
   text-shadow: 0px 0px 3px black, 2px 2px 4px rgb(0, 0, 0), 0px 0px 4px rgb(0, 0, 0), 0px 0px 5px black;
+  width: 100%;
 }
 
 /*--=========================
@@ -97,7 +94,7 @@ h1 {
   justify-content: space-between;
   background: linear-gradient(to right, rgba(0, 128, 0, 0.541), rgba(59, 224, 59, 0.507));
   border-top: 2px solid green;
-  box-shadow: 1px 1px 10px black;
+  box-shadow: 1px 1px 5px black;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   z-index: 2;
