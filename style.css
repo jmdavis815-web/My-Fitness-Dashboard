@@ -40,6 +40,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: -1;
 }
 
 /*-- Body Image --*/
@@ -99,6 +100,9 @@ h1 {
   backdrop-filter: blur(10px);
   z-index: 2;
   width: 100%;
+  }
+  .water-btn-btm {
+    margin-left: 5px;
   }
 }
 
