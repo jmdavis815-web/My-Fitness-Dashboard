@@ -87,29 +87,29 @@ h1 {
 
 /*-- Ready Button --*/
 .ready {
-  border-radius: 15px;
+  border-radius: 150px;
   border: 2px solid;
-  padding: 10px;
-  padding-left: 20%;
-  padding-right: 20%;
-  background: linear-gradient(to top, #003a70, #006bc9);
+  padding: 30px;
+  background: linear-gradient(to top, #002b53, #006bc9);
   border-color: #04203d;
   color: white;
-  text-shadow: 0px 0px 3px black;
+  text-shadow: 0px 0px 3px black, 0px 0px 4px black;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
   letter-spacing: 1px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-shadow: 2px 2px 4px black;
 }
 
 .ready:hover {
-  background: linear-gradient(to top, #00478a, #0175db);
+  background: linear-gradient(to top, #002f5a, #0072d6);
 }
 
 /*-- Stay Hydrated Link --*/
 .hydrate {
   color: white;
+  margin-top: -30px;
 }
 
 /*--=========================
