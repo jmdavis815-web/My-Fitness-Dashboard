@@ -119,6 +119,10 @@ body {
   height: 100%;
 }
 
+#resetBtn {
+  margin-top: 20px;
+}
+
 /*-- Body Content --*/
 .weights-bg {
   background-image: url(weights.png);
