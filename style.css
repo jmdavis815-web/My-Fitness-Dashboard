@@ -59,6 +59,14 @@ body {
   font-family: monospace;
 }
 
+#fitness input {
+  font-size: 18px;
+  color: rgb(240, 56, 56);
+  font-family: sans-serif;
+  font-weight: bold;
+  border-color: darkgreen;
+}
+
 .fitness {
   background: linear-gradient(to top, rgba(0, 128, 0, 0.5), rgba(144, 238, 144, 0.5));
   padding: 20px;
