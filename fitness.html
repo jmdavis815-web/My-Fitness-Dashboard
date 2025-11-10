@@ -57,17 +57,25 @@
     <!--=====================================
                     Body
     =======================================-->
-    <div class="container">
-    <input placeholder="Today's Goal (minutes)" id="goal" type="number" min="1" />
-    <input placeholder="Time worked (minutes)" id="time" type="number" min="0" />
-    <button id="setGoalBtn">Set Goal</button>
-    <button id="addBtn">Add</button>
-    <div id="output"></div>
-    <div id="outputMins"></div>
-    <div id="outputPrc"></div>
+    <div class="container fitness">
+      <div class="row">
+        <div class="col-12 d-flex flex-row justify-content-center">
+          <input placeholder="Today's Goal (minutes)" id="goal" type="number" min="1" />
+          <button id="setGoalBtn">Set Goal</button>
+          <br>
+        </div>
+        <div class="col-12 d-flex flex-row justify-content-center">
+          <input placeholder="Time worked (minutes)" id="time" type="number" min="0" />
+          <button id="addBtn">Add</button>
+        </div>
+        <div class="col-12 d-flex flex-row justify-content-center">
+          <p id="output"></p>
+          <p id="outputMins"></p>
+          <p id="outputPrc"></p>
+        </div>
+      </div>
     </div>
     
-
     <!--=====================================
                 Bottom NavBar 
     =======================================-->

@@ -43,12 +43,17 @@ body {
   z-index: -1;
 }
 
-/*-- Body Image --*/
+/*-- Home Page Body Image --*/
 .bench {
   border: 1px solid black;
   border-radius: 5px;
   width: 100%;
   box-shadow: 2px 2px 7px black;
+}
+
+.fitness {
+  background-color: #006bc9;
+  padding: 20px;
 }
 
 /*-- Body Content --*/
@@ -89,7 +94,7 @@ h1 {
 .ready {
   border-radius: 150px;
   border: 2px solid;
-  padding: 30px;
+  padding: 40px;
   background: linear-gradient(to top, #002b53, #006bc9);
   border-color: #04203d;
   color: white;
@@ -117,9 +122,9 @@ h1 {
 .water-bottle {
   background-image: url(water-bottle.png);
   background-repeat: no-repeat;
-  background-position: start;
+  background-position: center;
   background-size: contain;
-  width: 50%;
+  width: 100%;
 }
 
 /*--=========================
