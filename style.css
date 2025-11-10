@@ -112,7 +112,7 @@ body {
   background: linear-gradient(to bottom, rgb(65, 65, 65), rgb(48, 48, 48));
   padding-top: 10px;
   border-radius: 15px;
-  border: 3px solid rgb(18, 63, 0);
+  border: 3px solid rgb(83, 83, 83);
 }
 
 #outputBg {

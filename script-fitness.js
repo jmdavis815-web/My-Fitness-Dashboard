@@ -5,6 +5,7 @@ const setGoalBtn = document.getElementById("setGoalBtn");
 const addBtn = document.getElementById("addBtn");
 const outputMins = document.getElementById("outputMins")
 const outputPrc = document.getElementById("outputPrc");
+const resetBtn = document.getElementById("resetBtn");
     outputEl.style.color = "limegreen";
     outputEl.style.fontWeight = "bold";
     outputEl.style.fontFamily = "Arial, sans-serif";
@@ -47,6 +48,7 @@ addBtn.addEventListener("click", () => {
         outputEl.textContent = "Invalid input. Please try again.";
         return;
     }
+
     total = Math.min(goal, total + add);
     const percent = (total / goal) * 100;
     rounded = percent.toFixed(1);
@@ -54,6 +56,16 @@ addBtn.addEventListener("click", () => {
     outputMins.textContent = `${total} minute(s) logged ${rounded}% there!`;
     timeInput.value = "";
 });
+
+resetBtn.addEventListener("click", () => {
+  goal = 0;
+  total = 0;
+  outputEl.textContent = "Progress has been reset.";
+  outputMins.textContent = "";
+  goalInput.value = "";
+  timeInput.value = "";
+});
+
 
 
     
