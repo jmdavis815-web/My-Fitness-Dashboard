@@ -149,13 +149,13 @@ h1 {
 .ready {
   border-radius: 150px;
   border: 2px solid;
-  padding: 40px;
+  padding: 35px;
   background: linear-gradient(to top, #002b53, #006bc9);
   border-color: #04203d;
   color: white;
   text-shadow: 0px 0px 3px black, 0px 0px 4px black;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 1px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
