@@ -20,9 +20,9 @@ let rounded;
 
 function messageFor(percent) {
     if (percent >= 100) return "🎉 Congratulations!";
-    if (percent < 25)  return "Nice warm-up — you're just getting started! 🏁 ";
-    if (percent < 50)  return "Getting there! Keep that energy going! ⚡ ";
-    if (percent < 75)  return "Almost at the finish line! 🔥 ";
+    if (percent < 25)  return "Nice warm-up — you're just getting started! 🏁";
+    if (percent < 50)  return "Getting there! Keep that energy going! ⚡";
+    if (percent < 75)  return "Almost at the finish line! 🔥";
     return "Just a little more!";
 }
 
@@ -51,7 +51,7 @@ addBtn.addEventListener("click", () => {
     const percent = (total / goal) * 100;
     rounded = percent.toFixed(1);
     outputEl.textContent = messageFor(percent);
-    outputMins.textContent = ` ${total} minute(s) logged ${rounded}% there!`;
+    outputMins.textContent = `${total} minute(s) logged ${rounded}% there!`;
     timeInput.value = "";
 });
 
