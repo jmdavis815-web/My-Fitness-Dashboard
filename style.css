@@ -51,9 +51,54 @@ body {
   box-shadow: 2px 2px 7px black;
 }
 
+/*-- Fitness Page Tracker --*/
 .fitness {
-  background-color: #006bc9;
+  background: url(tracker-bg.png);
   padding: 20px;
+  padding-top: 40px;
+  width: 100%;
+  border-radius: 100px;
+  box-shadow: 5px 5px rgb(0, 35, 53), 2px 2px 7px black
+}
+
+@media (min-width: 750px) {
+  #fitness {
+  width: 60%;
+ }
+}
+
+#time {
+  border-radius: 15px 0px 0px 15px;
+  padding: 10px;
+}
+
+#addBtn {
+  border-radius: 0px 15px 15px 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#goal {
+  border-radius: 15px 0px 0px 15px;
+  padding: 10px;
+}
+
+#setGoalBtn {
+  border-radius: 0px 15px 15px 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.outputBg {
+  background: linear-gradient(to top, rgb(92, 92, 92), rgb(48, 48, 48));
+  padding-top: 10px;
+  border-radius: 15px;
+  border: 2px solid rgb(71, 71, 71);
+}
+
+#outputBg {
+  width: 50%;
+  height: 100%;
 }
 
 /*-- Body Content --*/

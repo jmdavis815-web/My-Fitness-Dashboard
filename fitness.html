@@ -57,19 +57,27 @@
     <!--=====================================
                     Body
     =======================================-->
-    <div class="container fitness">
+    <div id="fitness" class="container mb-5 fitness">
       <div class="row">
-        <div class="col-12 d-flex flex-row justify-content-center">
+        <div class="col-12 text-center">
+          <h3>
+            My Fitness Tracker
+          </h3>
+        </div>
+        <div class="col-12 d-flex flex-row justify-content-center mb-3">
           <input placeholder="Today's Goal (minutes)" id="goal" type="number" min="1" />
-          <button id="setGoalBtn">Set Goal</button>
-          <br>
+            <button id="setGoalBtn">Set Goal</button>
         </div>
-        <div class="col-12 d-flex flex-row justify-content-center">
+        <div class="col-12 d-flex flex-row justify-content-center mb-3 time">
           <input placeholder="Time worked (minutes)" id="time" type="number" min="0" />
-          <button id="addBtn">Add</button>
+            <button id="addBtn">Add</button>
         </div>
+      </div>
+      <div id="outputBg" class="outputBg container">
         <div class="col-12 d-flex flex-row justify-content-center">
           <p id="output"></p>
+        </div>
+        <div class="col-12 d-flex flex-row justify-content-center">
           <p id="outputMins"></p>
           <p id="outputPrc"></p>
         </div>
