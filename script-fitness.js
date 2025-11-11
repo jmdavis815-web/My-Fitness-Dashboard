@@ -27,6 +27,12 @@ function messageFor(percent) {
     return "Just a little more!";
 }
 
+goalInput.addEventListener("input", () => {
+  if (goalInput.value.length > 3) {
+    goalInput.value = goalInput.value.slice(0, 3);
+  }
+});
+
 setGoalBtn.addEventListener("click", () => {
     const val = parseInt(goalInput.value, 10);
     if (isNaN(val) || val <= 0) {
