@@ -145,7 +145,7 @@ h1 {
 
 /*--  Input Forms --*/
 .fitness input {
-  font-size: 20px;
+  font-size: 120%;
   color: rgb(240, 56, 56);
   font-family: sans-serif;
   font-weight: bold;
