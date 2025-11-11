@@ -60,7 +60,7 @@ body {
 }
 
 .fitness input {
-  font-size: 18px;
+  font-size: 120%;
   color: rgb(240, 56, 56);
   font-family: sans-serif;
   font-weight: bold;
@@ -157,7 +157,7 @@ h1 {
 /*-- Paragragh --*/
 #bd-content p {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   text-shadow: 0px 0px 3px black, 2px 2px 4px rgb(0, 0, 0), 0px 0px 4px rgb(0, 0, 0), 0px 0px 5px black;
   width: 100%;
