@@ -47,90 +47,16 @@ body {
   color: green;
 }
 
+#start:hover {
+  color: rgb(0, 153, 0);
+}
+
 /*-- Home Page Body Image --*/
 .bench {
   border: 1px solid black;
   border-radius: 5px;
   width: 100%;
   box-shadow: 2px 2px 7px black;
-}
-
-/*--=== Fitness Page Tracker ===--*/
-#fitnessTitle {
-  margin-bottom: 30px;
-  color: rgb(0, 148, 0);
-  text-shadow: 0px 0px 5px rgb(0, 0, 0), 2px 2px 8px rgb(0, 0, 0);
-  font-family: monospace;
-}
-
-.fitness input {
-  font-size: 120%;
-  color: rgb(240, 56, 56);
-  font-family: sans-serif;
-  font-weight: bold;
-  border-color: darkgreen;
-  text-align: center;
-  width: 65%;
-}
-
-input:focus {
-  border-color: red;
-  border-width: 3px;
-  outline: darkgreen;
-}
-
-.fitness {
-  background: linear-gradient(to top, rgba(0, 128, 0, 0.5), rgba(144, 238, 144, 0.5));
-  padding: 20px;
-  padding-top: 40px;
-  width: 100%;
-  border-radius: 100px;
-  border: 2px solid rgba(0, 128, 0, 0.733);
-  box-shadow: 5px 5px rgb(0, 39, 0), 2px 2px 7px black
-}
-
-@media (min-width: 750px) {
-  #fitness {
-  width: 60%;
- }
-}
-
-#time {
-  border-radius: 15px 0px 0px 15px;
-  background-color: lightgreen;
-}
-
-#addBtn {
-  border-radius: 0px 15px 15px 0px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-#goal {
-  border-radius: 15px 0px 0px 15px;
-  background-color: lightgreen;
-}
-
-#setGoalBtn {
-  border-radius: 0px 15px 15px 0px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.outputBg {
-  background: linear-gradient(to bottom, rgb(65, 65, 65), rgb(48, 48, 48));
-  padding-top: 10px;
-  border-radius: 15px;
-  border: 3px solid rgb(83, 83, 83);
-}
-
-#outputBg {
-  width: 80%;
-  height: 100%;
-}
-
-#resetBtn {
-  margin-top: 20px;
 }
 
 /*-- Body Content --*/
@@ -169,17 +95,18 @@ h1 {
 
 /*-- Ready Button --*/
 .ready {
-  border-radius: 50%;
+  border-radius: 10px;
   border: 2px solid;
-  padding: 35px;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 20px;
+  padding-top: 20px;
   background: linear-gradient(to top, green, lightgreen);
   border-color: #1d1d1d;
   color: white;
   text-shadow: 0px 0px 3px black, 0px 0px 4px black;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 1px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -205,6 +132,94 @@ h1 {
   background-size: contain;
   width: 100%;
 }
+
+/*--====================
+    Fitness Tracker 
+=====================--*/
+#fitnessTitle {
+  margin-bottom: 30px;
+  color: rgb(0, 148, 0);
+  text-shadow: 0px 0px 5px rgb(0, 0, 0), 2px 2px 8px rgb(0, 0, 0);
+  font-family: monospace;
+}
+
+/*--  Input Forms --*/
+.fitness input {
+  font-size: 120%;
+  color: rgb(240, 56, 56);
+  font-family: sans-serif;
+  font-weight: bold;
+  border-color: darkgreen;
+  text-align: center;
+  width: 65%;
+}
+
+input:focus {
+  border-color: red;
+  border-width: 3px;
+  outline: darkgreen;
+}
+
+#time {
+  border-radius: 15px 0px 0px 15px;
+  background-color: lightgreen;
+}
+
+#goal {
+  border-radius: 15px 0px 0px 15px;
+  background-color: lightgreen;
+}
+
+/*--  Background --*/
+.fitness {
+  background: linear-gradient(to top, rgba(0, 128, 0, 0.5), rgba(144, 238, 144, 0.5));
+  padding: 20px;
+  padding-top: 40px;
+  width: 100%;
+  border-radius: 100px;
+  border: 2px solid rgba(0, 128, 0, 0.733);
+  box-shadow: 5px 5px rgb(0, 39, 0), 2px 2px 7px black
+}
+
+@media (min-width: 750px) {
+  #fitness {
+  width: 60%;
+ }
+}
+
+/*--  Buttons --*/
+#addBtn {
+  border-radius: 0px 15px 15px 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#setGoalBtn {
+  border-radius: 0px 15px 15px 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#resetBtn {
+  margin-top: 20px;
+}
+
+/*--  Output --*/
+.outputBg {
+  background: linear-gradient(to bottom, rgb(65, 65, 65), rgb(48, 48, 48));
+  padding-top: 10px;
+  border-radius: 15px;
+  border: 3px solid rgb(83, 83, 83);
+}
+
+#outputBg {
+  width: 54%;
+  height: 100%;
+  min-height: 75px;
+  margin-top: 15px;
+}
+
+
 
 /*--=========================
         BOTTOM NAVBAR
@@ -244,12 +259,16 @@ h1 {
 footer {
   border-top: 1px solid rgb(136, 136, 136);
   border-radius: 7px;
-  background: linear-gradient(to top, rgb(70, 70, 70), rgb(136, 136, 136));
+  background-image: url(fitness-footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   padding-bottom: 60px;
   padding-top: 20px;
   color: #0B2A45;
+  text-shadow: 0px 0px 4px white, 0px 0px 4px white, 0px 0px 4px white;
   width: 100%;
 }
 
