@@ -51,7 +51,7 @@ body {
   box-shadow: 2px 2px 7px black;
 }
 
-/*-- Fitness Page Tracker --*/
+/*--=== Fitness Page Tracker ===--*/
 #fitnessTitle {
   margin-bottom: 30px;
   color: rgb(0, 148, 0);
@@ -59,13 +59,20 @@ body {
   font-family: monospace;
 }
 
-#fitness input {
-  font-size: 18px;
+.fitness input {
+  font-size: 22px;
   color: rgb(240, 56, 56);
   font-family: sans-serif;
   font-weight: bold;
   border-color: darkgreen;
   text-align: center;
+  width: 35%;
+}
+
+input:focus {
+  border-color: red;
+  border-width: 3px;
+  outline: darkgreen;
 }
 
 .fitness {
@@ -86,7 +93,6 @@ body {
 
 #time {
   border-radius: 15px 0px 0px 15px;
-  padding: 10px;
   background-color: lightgreen;
 }
 
@@ -98,7 +104,6 @@ body {
 
 #goal {
   border-radius: 15px 0px 0px 15px;
-  padding: 10px;
   background-color: lightgreen;
 }
 
