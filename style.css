@@ -60,7 +60,7 @@ body {
 }
 
 .fitness input {
-  font-size: 22px;
+  font-size: 18px;
   color: rgb(240, 56, 56);
   font-family: sans-serif;
   font-weight: bold;
@@ -221,7 +221,7 @@ h1 {
   }
   .water-btn-btm {
     margin-right: 5px;
-    margin-left: 7px;
+    margin-left: 8px;
   }
 }
 
