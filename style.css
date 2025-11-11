@@ -66,7 +66,7 @@ body {
   font-weight: bold;
   border-color: darkgreen;
   text-align: center;
-  width: 35%;
+  width: 65%;
 }
 
 input:focus {
@@ -121,7 +121,7 @@ input:focus {
 }
 
 #outputBg {
-  width: 50%;
+  width: 80%;
   height: 100%;
 }
 
