@@ -145,13 +145,13 @@ h1 {
 
 /*--  Input Forms --*/
 .fitness input {
-  font-size: 120%;
+  font-size: 20px;
   color: rgb(240, 56, 56);
   font-family: sans-serif;
   font-weight: bold;
   border-color: darkgreen;
   text-align: center;
-  width: 65%;
+  width: 50%;
 }
 
 input:focus {
@@ -184,20 +184,17 @@ input:focus {
 @media (min-width: 750px) {
   #fitness {
   width: 60%;
+  max-width: 500px;
  }
 }
 
 /*--  Buttons --*/
 #addBtn {
   border-radius: 0px 15px 15px 0px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 #setGoalBtn {
   border-radius: 0px 15px 15px 0px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 #resetBtn {
@@ -213,7 +210,7 @@ input:focus {
 }
 
 #outputBg {
-  width: 54%;
+  width: 70%;
   height: 100%;
   min-height: 75px;
   margin-top: 15px;
@@ -259,17 +256,18 @@ input:focus {
 footer {
   border-top: 1px solid rgb(136, 136, 136);
   border-radius: 7px;
-  background-image: url(fitness-footer.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(to top, rgba(161, 161, 161, 0.541), rgba(0, 0, 0, 0.507));
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   padding-bottom: 60px;
   padding-top: 20px;
-  color: #0B2A45;
-  text-shadow: 0px 0px 4px white, 0px 0px 4px white, 0px 0px 4px white;
+  color: rgb(192, 192, 192);
+  font-weight: 200;
   width: 100%;
+}
+
+footer p {
+  margin-top: 10px;
 }
 
 
