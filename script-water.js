@@ -13,6 +13,12 @@ function renderStatus() {
   waterOutput.textContent = `${total} / ${goal} cups`;
 }
 
+waterGoal.addEventListener("input", function() {
+  if (waterGoal.value.length > 3) {
+    waterGoal.value = waterGoal.value.slice(0, 3);
+  }
+});
+
 // ===== Defult Output =====
 renderStatus();
 
