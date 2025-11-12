@@ -95,7 +95,7 @@ setGoalBtn.addEventListener("click", function() {
   }
   goal = Math.min(Math.max(val, 1), 999);
   total = 0;
-  outputEl.textContent = `Goal: ${goal} min(s). Log some minutes!`;
+  outputEl.textContent = `Goal set ${goal} min(s).  Lets log some minutes!`;
   renderStatus();
   saveState();
 });
