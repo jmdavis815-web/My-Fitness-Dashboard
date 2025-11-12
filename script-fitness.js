@@ -129,3 +129,5 @@ resetBtn.addEventListener("click", function() {
   timeInput.value = "";
   saveState();
 });
+
+outputEl.textContent = `Ready!`;
