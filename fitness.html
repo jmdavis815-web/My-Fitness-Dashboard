@@ -60,34 +60,40 @@
     <div id="fitness" class="container mb-5 fitness">
       <div class="row">
         <div class="col-12 text-center">
+          <!-- Title -->
           <h3 id="fitnessTitle">
             Daily Fitness Tracker
           </h3>
         </div>
         <div class="fitInput col-12 d-flex flex-row justify-content-center mb-3">
+          <!-- Goals -->
           <input placeholder="Today's Goal (mins)" id="goal" type="number" min="1" max="999"/>
+            <!-- Set Button -->
             <a href="#">
               <img id="setGoalBtn" src="set-goal.png" alt="Set Goal Button" width="75px">
             </a>
         </div>
         <div class="col-12 d-flex flex-row justify-content-center mb-3 time">
-          <input placeholder="Time worked (mins)" id="time" type="number" min="0" max="999"/>
+          <!-- Time -->
+          <input placeholder="Time worked (mins)" id="time" type="number" min="1" max="999"/>
+            <!-- Add Button -->
             <a href="#">
-            <img id="addBtn" width="75px" src="add-btn.png" alt="Add Button">
+              <img id="addBtn" width="75px" src="add-btn.png" alt="Add Button">
             </a>
         </div>
       </div>
+      <!-- Outputs -->
       <div id="outputBg" class="outputBg container">
         <div class="col-12 d-flex flex-row justify-content-center">
           <p id="output" class="text-center"></p>
         </div>
         <div class="col-12 d-flex flex-row justify-content-center">
           <p id="outputMins" class="text-center"></p>
-          <p id="outputPrc" class="text-center"></p>
         </div>
       </div>
       <div class="row">
         <div class="col-12 d-flex flex-row justify-content-center">
+          <!-- Reset Button -->
           <a href="#">
             <img id="resetBtn" width="75px" src="reset.png" alt="Reset Button">
           </a>
