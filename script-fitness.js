@@ -124,6 +124,7 @@ resetBtn.addEventListener("click", function() {
   // Keep your current goal, or reset it—your choice:
   // goal = 0; // uncomment to wipe goal too
   total = 0;
+  outputEl.textContent = `Goal: ${goal} min(s)`
   outputMins.textContent = "Progress has been reset.";
   goalInput.value = "";
   timeInput.value = "";
